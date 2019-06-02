@@ -1,0 +1,60 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+	</head>
+	<body>
+		<h1>Užduotys</h1>
+		<p>6+5</p>
+		<input id="v1">
+		<button id="v2" onclick=patikrinti()>tikrinti</button>
+		<p>6*5</p>
+		<input id="v3">
+		<button id="v4" onclick=patikrinti1()>tikrinti</button>
+		<p>6^5</p>
+		<input id="v5">
+		<button id="v6" onclick=patikrinti2()>tikrinti</button>
+		<p>6/5</p>
+		<input id="v7">
+		<button id="v8" onclick=patikrinti3()>tikrinti</button>
+		<p>6-5</p>
+		<input id="v9">
+		<button id="v10" onclick=patikrinti4()>tikrinti</button> 
+		<script>
+			function patikrinti()
+			{
+				var y = document.getElementById("v1").value
+				if(y==11)
+					alert("Puiku!");
+				else alert("bandyk dar karta");
+			}
+			function patikrinti1()
+			{
+				var y = document.getElementById("v3").value
+				if(y==30)
+					alert("Puiku!");
+				else alert("bandyk dar karta");
+			}
+			function patikrinti2()
+			{
+				var y = document.getElementById("v5").value
+				if(y==7776)
+					alert("Puiku!");
+				else alert("bandyk dar karta");
+			}
+			function patikrinti3()
+			{
+				var y = document.getElementById("v7").value
+				if(y==1.2)
+					alert("Puiku!");
+				else alert("bandyk dar karta");
+			}
+			function patikrinti4()
+			{
+				var y = document.getElementById("v9").value
+				if(y==1)
+					alert("Puiku!");
+				else alert("bandyk dar karta");
+			}
+		</script>
+	</body>
+</html>
